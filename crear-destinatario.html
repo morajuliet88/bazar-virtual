@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Template Bazar Virtual- Index</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css" rel="stylesheet"> -->
+    <link href="css/fonts/Materialicons/material-icons.css" rel="stylesheet">
+    <link href="css/fonts/font/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <!-- <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="overlay" onclick="closeNav()"></div>
+    <div id="closeBtn" onclick="closeNav()">&times;</div>
+    <div class="sidenav" id="mySidenav">
+        <div class="sidenavHeader">
+        <i class="fas fa-user-circle"></i> Hola, Identifíquese
+        </div>
+        <!--Below SideNavHeader-->
+        <div id="main-container">
+        <div class="sidenavContentHeader">Trending</div>
+        <a href="#"><div class="sidenavContent">Best Sellers</div></a>
+        <a href="#"><div class="sidenavContent">New Releases</div></a>
+        <a href="#"><div class="sidenavContent">Movers and Shakers</div></a>
+        <hr />
+        <div class="sidenavContentHeader">Digital Content And Devices</div>
+        <a href="#"
+            ><div class="sidenavRow" onclick="openPrimeVideo()">
+            <div>Prime Video</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#"
+            ><div class="sidenavRow" onclick="openAmazonMusic()">
+            <div>Amazon Music</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#"
+            ><div class="sidenavRow">
+            <div>Apps for Android</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#"
+            ><div class="sidenavRow">
+            <div>Echo, Alexa & Smart Home</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#"
+            ><div class="sidenavRow">
+            <div>Fire TV</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#"
+            ><div class="sidenavRow">
+            <div>Fire Tablets</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#"
+            ><div class="sidenavRow">
+            <div>Kindle E-readers & Books</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#"
+            ><div class="sidenavRow">
+            <div>Audible Audiobooks</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <hr />
+        <div class="sidenavContentHeader">Shop By Department</div>
+        <a href="#"
+            ><div class="sidenavRow">
+            <div>Amazon Fresh</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i></div
+        ></a>
+        <a href="#">
+            <div class="sidenavRow">
+            <div>Books</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidenavRow">
+            <div>Films, TV, Music & Games</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidenavRow">
+            <div>Electronics & Computers</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+            </div>
+        </a>
+        <div class="sidenavContentHeader">Programs & Features</div>
+        <a href="#">
+            <div class="sidenavRow">
+            <div>Gift Cards & Top Up</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidenavRow">
+            <div>Find a Gift</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidenavRow">
+            <div>Handmade</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+            </div>
+        </a>
+        <a href="#">
+            <div class="sidenavRow">
+            <div>Amazon Launchpad</div>
+            <i class="fas fa-chevron-right" style="color: #8e9090"></i>
+            </div>
+        </a>
+        <div style="height: 50px"></div>
+        </div>
+        <!--End of first container-->
+
+        <div id="sub-container">
+        <div id="mainMenu">
+            <i class="fas fa-chevron-left" style="color: #8e9090"></i> Menú principal
+        </div>
+        <hr />
+        <div id="sub-container-content">
+            <!-- <div class="sidenavContentHeader">Prime Video</div>
+            <a href="#"><div class="sidenavContent">All Videos</div></a> -->
+        </div>
+        </div>
+    </div>
+
+    <!-- ======= Top Bar ======= -->
+    <section id="topbar" class="d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-lg-center justify-content-lg-center">
+                <div class="col-sm-6 col-lg-3 logo-column">
+                  <div class="logo">
+                    <a href="index.html"> <img class="img-fluid" src="img/logo-bazarvirtual.png" alt="Bazar Virtual"> </a>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                  <div class="location d-flex align-items-end send">
+                    <i class="bi bi-geo-alt-fill"></i><a href="#" data-bs-toggle="modal" data-bs-target="#locationModal"> Enviar a<br>La Habana</a>
+                  </div>
+                  <!-- Modal -->
+                  <div class="modal fade" id="locationModal" tabindex="-1" aria-labelledby="locationModal" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Enviar a</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <label>Provincia</label>
+                          <select class="select2 select-localitation" name="localitation" data-placeholder="Seleccione la provincia y municipio al que desea enviar sus compras" data-allow-clear="true">
+                            <optgroup label="La Habana">
+                              <option>Diez de Octubre</option>
+                              <option>Arroyo Naranjo</option>
+                              <option>Boyeros</option>
+                              <option>Centro Habana</option>
+                              <option>Cerro</option>
+                              <option>Cotorro</option>
+                              <option>Guanabacoa</option>
+                              <option>La Habana del Este</option>
+                              <option>La Habana Vieja</option>
+                              <option>La Lisa</option>
+                              <option>Marianao</option>
+                            </optgroup>
+                            <optgroup label="Cienfuegos">
+                              <option>Diez de Octubre</option>
+                              <option>Arroyo Naranjo</option>
+                              <option>Boyeros</option>
+                              <option>Centro Habana</option>
+                              <option>Cerro</option>
+                              <option>Cotorro</option>
+                              <option>Guanabacoa</option>
+                              <option>La Habana del Este</option>
+                              <option>La Habana Vieja</option>
+                              <option>La Lisa</option>
+                              <option>Marianao</option>
+                            </optgroup>
+                          </select>
+                          <div class="form-check mt-3">
+                            <input class="form-check-input" type="checkbox" value="" id="checkOnlyDomicile">
+                            <label class="form-check-label" for="checkOnlyDomicile">
+                              Mostrar solo productos con entrega a domicilio.
+                            </label>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary">Continuar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <form class="w-100"  role="form" action="#">
+                    <div class="search input-group">
+                        <div class="input-group-prepend">
+                          <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Todos
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Action</a></li>
+                              <li><a class="dropdown-item" href="#">Another action</a></li>
+                              <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                        <div class=""><button class="btn-search" name="search" type="submit"><i class="bi bi-search"></i></button>
+                        </div>                  
+                    </div>
+                  </form>
+                </div>
+                <div class="col-sm-4 col-md-3 icons-top-menu">
+                  <div class="menu-top d-flex align-items-lg-center justify-content-lg-center justify-content-sm-end">      
+                    <!-- Menu User -->
+                    <div class="menu-li dropdown ">
+                      <a class="dropdown-toggle" href="#" id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="true">
+                        <i class="bi bi-person-circle"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-user">
+                        <div class="form-inline start-sesion" role="form" action="#">
+                            <h4 class="mb-3">Iniciar sesión</h4>                            
+                            <div class="text-center mb-3">                                    
+                              <button class="btn btn-primary w-100" onclick="window.location.href='./login.html';">Acceder</button>
+                            </div>  
+                            <div class="text-center mb-3">       
+                              <span>Al continuar aceptas los <a href="terminos-condiciones.html">Términos y condiciones</a> de la tienda Bazar Virtual.</span>
+                            </div>  
+                            <div class="text-center mb-3">       
+                              <span>¿Eres nuevo en Bazar Virtual?</span> 
+                            </div>  
+                            <div class="text-center ">                                
+                              <button class="btn btn-secundary w-100" onclick="window.location.href='./crear-cuenta.html';">Crea tu cuenta aquí</button>
+                            </div>
+                        </div> 
+                      </ul>   
+                    </div>
+                    <!-- User auth -->           
+                  <div class="menu-li dropdown menu-user-login d-none">
+                    <a class="dropdown-toggle" href="#" id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="true">
+                      <span class="mb-0 account">Hola Ricardo</span>
+                      <span class="account">Tu cuenta<span class='material-icons'>expand_more</span></span>
+                    </a> 
+                    <ul class="dropdown-menu">
+                      <li><h5><b><a href="#">Tu Cuenta</a></b></h5></li>
+                      <li><span class='material-icons'>person</span><a href="#">Cuenta</a></li>
+                      <li><span class="mdi mdi-map-search"></span><a href="#">Rastrear órdenes</a></li>
+                      <li><span class='mdi mdi-contacts'></span><a href="#">Contactos</a></li>
+                      <li><span class='mdi mdi-download'></span><a href="#">Descargas</a></li>
+                      <li><span class='mdi mdi-exit-to-app'></span><a href="#">Cerrar Sesión</a></li>
+                    </ul>
+                  </div>
+                    <div class="menu-li dropdown">
+                      <a class="dropdown-toggle" href="#" id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="true">
+                        <i class="bi bi-globe"></i>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <form class="form-inline icon-for-language" role="form" action="#">
+                            <div class="row">
+                              <div class="col-lg-6 col-sm-12">
+                                <p class="text-secondary">Cambiar idioma</p>
+                              </div>
+                              <div class="col-6">
+                                <a class="text-primary" href="#">Más información</a>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="language" id="languageRadios1" value="option1" checked>
+                                  <label class="form-check-label" for="languageRadios1">
+                                    Español - ESP
+                                  </label>
+                                </div>
+                                <hr>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="language" id="languageRadios2" value="option2">
+                                  <label class="form-check-label" for="languageRadios2">
+                                    Inglés - ENG
+                                  </label>
+                                </div>                              
+                              </div>
+                            </div>
+                          </form> 
+                        </li>                          
+                        <li>
+                          <form class="form-inline icon-for-coin" role="form" action="#">
+                            <div class="row">
+                              <div class="col-12 mt-4">
+                                <p class="text-secondary">Cambiar tipo de moneda</p>
+                              </div>
+                              <div class="col-12">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="money" id="moneyRadios1" value="option1" checked>
+                                  <label class="form-check-label" for="moneyRadios1">
+                                    USD - dólar estadounidense
+                                  </label>
+                                </div>
+                                <hr>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="money" id="moneyRadios2" value="option2">
+                                  <label class="form-check-label" for="moneyRadios2">
+                                    CAD - dólar canadiense
+                                  </label>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="money" id="moneyRadios3" value="option3">
+                                  <label class="form-check-label" for="moneyRadios3">
+                                    EUR - euro
+                                  </label>
+                                </div>                             
+                              </div>
+                            </div>
+                          </form> 
+                        </li> 
+                      </ul>   
+                    </div>   
+                    <div class="menu-li dropdown list-group">
+                      <a class="dropdown-toggle" href="#" id="dropdownUser" data-bs-toggle="dropdown" aria-expanded="true">
+                        <i class="bi bi-cart4"></i>
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                          4
+                          <span class="visually-hidden">unread messages</span>
+                        </span>                    
+                      </a> 
+                      <ul class="dropdown-menu cart list-group-flush">
+                        <li class="list-group-item">
+                          <p class="text-center mb-0"><b>Subtotal</b></p>
+                          <p class="text-center text-theme"><b>USD $30.50</b></p>
+                        </li>
+                        <li class="list-group-item">
+                          <img src="/img/productos/pechuga.png"  alt="Pechuga">
+                          <span class="position-absolute start-0 badge rounded-pill bg-danger">
+                            1
+                            <span class="visually-hidden">unread messages</span>
+                          </span>  
+                        </li>
+                        <li class="list-group-item">
+                          <img src="/img/productos/perfume.png"  alt="Pechuga">
+                          <span class="position-absolute start-0 badge rounded-pill bg-danger">
+                            2
+                            <span class="visually-hidden">unread messages</span>
+                          </span>  
+                        </li>
+                        <li class="list-group-item">
+                          <img src="/img/productos/teclado.png"  alt="Pechuga">
+                          <span class="position-absolute start-0 badge rounded-pill bg-danger">
+                            1
+                            <span class="visually-hidden">unread messages</span>
+                          </span>  
+                        </li>
+                        <li class="list-group-item last-child text-center">
+                          <a href="#" class="">
+                            Ir al Carrito
+                          </a>
+                        </li>
+                      </ul> 
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>  
+      </section>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex">  
+            <button class="hamburger hamburger--squeeze" type="button" onclick="openNav()">
+            <i class="bi bi-list"></i>
+            <span>Categorías</span>
+            </button>
+            <ul class="nav principal-menu">
+            <li class="nav-item">
+                <a href="preguntas-frecuentes.html" class="nav-link">Preguntas Frecuentes</a>
+            </li>
+            <li class="nav-item">
+                <a href="terminos-condiciones.html" class="nav-link">Términos y Condiciones</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Ayuda</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </header><!-- End Header -->
+
+    <main><!-- #main -->
+        
+        <!-- ======= Create Receiver Section ======= -->
+        <section id="receiver">
+            <form id="form-receiver" class="needs-validation" novalidate>
+                <div class="container py-5 h-100">
+                    <div class="row d-flex justify-content-center h-100">
+                        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                            <div class="card shadow-2-strong" style="border-radius: 0.5rem; border: 1px solid #d4d3d3;">
+                                <div class="card-body" style="padding: 30px 80px;">
+                                    <h3 class="mb-0">Crear destinatario</h3>
+                                    <p><span class="mdi mdi-information-outline" style="color: rgb(35, 119, 130);"></span> Todos los campos con <span class="text-danger">*</span> son obligatorios</p>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="full-name">Nombre y Apellidos</label><span class="text-danger">*</span>
+                                        <input type="text" id="validationFull-name" class="form-control" required/>
+                                        <div class="invalid-feedback">
+                                            Campo obligatorio vacío
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="street">Calle</label><span class="text-danger">*</span>
+                                        <input type="text" id="street" class="form-control" required/>
+                                        <div class="invalid-feedback">
+                                            Campo obligatorio vacío
+                                        </div>
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="street-1">Entre calle 1</label>
+                                        <input type="text" id="street-1" class="form-control" />
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="street-2">Entre calle 2</label>
+                                        <input type="text" id="street-2" class="form-control" />
+                                    </div>
+                                    <div class="row justify-content-between">
+                                        <div class="col-4">
+                                            <label class="form-label" for="no-apartament">No. Apartamento</label>
+                                            <input type="text" id="no-apartament" class="form-control" />
+                                        </div>
+                                        <div class="col-4">
+                                            <label class="form-label" for="num">No. Edif. o Casa</label>
+                                            <input type="text" id="num" class="form-control" />
+                                        </div>
+                                        <div class="col-4">
+                                            <label class="form-label" for="zip-code">Código Postal</label>
+                                            <input type="text" id="zip-code" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label for="country">País</label><span class="text-danger">*</span>
+                                        <select class="form-select" id="country" required>
+                                            <option selected disabled value="">- Seleccione país -</option>
+                                            <option value="1">Cuba</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Seleccione un país
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="province">Provincia</label><span class="text-danger">*</span>
+                                        <input type="text" id="province" class="form-control" required/>
+                                        <div class="invalid-feedback">
+                                            Campo obligatorio vacío
+                                        </div>
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="municipality">Municipio</label><span class="text-danger">*</span>
+                                        <input type="text" id="municipality" class="form-control" required/>
+                                        <div class="invalid-feedback">
+                                            Campo obligatorio vacío
+                                        </div>
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="town">Reparto</label>
+                                        <input type="text" id="town" class="form-control" />
+                                    </div>
+                                    <div class="form-outline mb-3">
+                                        <label class="form-label" for="mail">Correo electrónico</label>
+                                        <input type="email" id="mail" class="form-control" required/>
+                                        <div class="invalid-feedback">
+                                            Campo obligatorio vacío
+                                        </div>
+                                    </div>
+                                    <div class="row mb-4">
+                                        <p class="text-secondary"><span class="mdi mdi-information-outline" style="color: rgb(35, 119, 130);"></span> Es necesario que llene alguno de los campos siguientes</p>
+                                        <div class="col-6">
+                                            <label class="form-label" for="thelephone">Teléfono fijo</label>
+                                            <input type="text" id="thelephone" class="form-control" />
+                                        </div>
+                                        <div class="col-6">
+                                            <label class="form-label" for="cellphone">Teléfono móvil</label>
+                                            <input type="text" id="cellphone" class="form-control" />
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary btn-block w-100" type="submit">Enviar</button>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section><!-- End Create Receiver -->
+
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-newsletter">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <p>Alerta comercial con las novedades de nuestra tienda directamente a su buzón de entrada</p>
+                <form id="Subscribe" action="" method="post">
+                  <input type="email" name="email">
+                  <input type="submit" value="Suscríbete">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="footer-top">
+          <div class="container-more container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-service">
+                <h4 class="mb-0 pb-0">Servicio al cliente</h4>
+                <p>24 horas a su servicio</p>
+                <ul>
+                  <li> Centro de ayuda</li>
+                  <li><i class="fas fa-phone-square"></i>(+1) 555 555 555 </li>
+                  <li><i class="fas fa-mail"></i> <a>ejemplo@servidor.cu</a></li>
+                </ul>
+                <h4 class="mb-2">Opciones de pago</h4>
+                <img src="/img/pay-option.png" alt="Imagen para Opciones de pago">
+  
+              </div>
+  
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-about-us">
+                <h4>Acerca de nosotros</h4>
+                <ul>
+                  <li>Acerca de Bazarvirtual.com</li>
+                  <li>Preguntas frecuentes</li>
+                  <li>Términos y condiciones</li>
+                  <li>Política de privacidad</li>
+                  <li>Aviso legal</li>
+                </ul>
+                <h4 class="mb-0 pb-0">Vender en Bazarvirtual.com</h4>
+                <p>Membresía de proveedor</p>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-categories">
+                <h4>Categorías</h4>
+                <ul>
+                  <li><a href="#">Ofertas</a></li>
+                  <li><a href="#">Mercado</a></li>
+                  <li><a href="#">Electrónica</a></li>
+                  <li><a href="#">Hogar y cocina</a></li>
+                  <li><a href="#">Reservaciones</a></li>
+                  <li><a href="#">Ferretería</a></li>
+                  <li><a href="#">Perfumería y belleza</a></li>
+                  <li><a href="#">Farmacia</a></li>
+                </ul>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 col-sm-6 footer-categories">
+                <ul style="margin-top: 40px;">
+                  <li><a href="#">Librería</a></li>
+                  <li><a href="#">Mascotas</a></li>
+                  <li><a href="#">Confecciones y calzado</a></li>
+                  <li><a href="#">Jeguetería</a></li>
+                  <li><a href="#">Motos y accesorios para autos</a></li>
+                  <li><a href="#">Misceláneas</a></li>
+                  <li><a href="#">Servicios</a></li>
+                </ul>
+              </div>
+  
+              <div class="row justify-content-lg-center d-flex">
+                <div class="col-lg-3 col-sm-5">
+                  <select class="form-select language-select-footer" id="select-language-footer" aria-label="Default select example">
+                    <option selected></i>Español</option>
+                    <option value="1"></i>Inglés</option>
+                  </select>
+                </div>
+                <div class="col-lg-5 col-sm-7">
+                  <select class="form-select coin-select-footer" id="select-coin-footer" aria-label="Default select example">
+                    <option selected>$ USD - dólar estadounidense</option>
+                    <option value="1">CAD - dólar canadiense</option>
+                    <option>EUR - euro</option> 
+                  </select>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="copyright">
+            &copy; 2023 Bazar Virtual. Todos los derechos reservados
+          </div>
+        </div>
+      </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!--<script src="vendor/popper/popper.min.js"></script>-->
+
+
+    <!--<script src="vendor/purecounter/purecounter_vanilla.js"></script>-->
+    <!--<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>-->
+    <!--<script src="vendor/bootstrap/js/bootstrap.min.js"></script>-->
+
+
+    <!-- <script src="vendor/glightbox/js/glightbox.min.js"></script> -->
+
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
